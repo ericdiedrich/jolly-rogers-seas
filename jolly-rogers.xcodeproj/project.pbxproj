@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3624050D23C882A600207356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624050C23C882A600207356 /* AppDelegate.swift */; };
+		3624050F23C882A600207356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624050E23C882A600207356 /* SceneDelegate.swift */; };
+		3624051123C882A600207356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624051023C882A600207356 /* ViewController.swift */; };
+		3624051423C882A600207356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3624051223C882A600207356 /* Main.storyboard */; };
+		3624051623C882A700207356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3624051523C882A700207356 /* Assets.xcassets */; };
+		3624051923C882A700207356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3624051723C882A700207356 /* LaunchScreen.storyboard */; };
+		3624052423C882A700207356 /* jolly_rogersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624052323C882A700207356 /* jolly_rogersTests.swift */; };
+		3624052F23C882A700207356 /* jolly_rogersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624052E23C882A700207356 /* jolly_rogersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3624052023C882A700207356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3624050123C882A600207356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3624050823C882A600207356;
+			remoteInfo = "jolly-rogers";
+		};
+		3624052B23C882A700207356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3624050123C882A600207356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3624050823C882A600207356;
+			remoteInfo = "jolly-rogers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3624050923C882A600207356 /* jolly-rogers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jolly-rogers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3624050C23C882A600207356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3624050E23C882A600207356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3624051023C882A600207356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3624051323C882A600207356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3624051523C882A700207356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3624051823C882A700207356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3624051A23C882A700207356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3624051F23C882A700207356 /* jolly-rogersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jolly-rogersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3624052323C882A700207356 /* jolly_rogersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jolly_rogersTests.swift; sourceTree = "<group>"; };
+		3624052523C882A700207356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3624052A23C882A700207356 /* jolly-rogersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jolly-rogersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3624052E23C882A700207356 /* jolly_rogersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jolly_rogersUITests.swift; sourceTree = "<group>"; };
+		3624053023C882A700207356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3624050623C882A600207356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624051C23C882A700207356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624052723C882A700207356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3624050023C882A600207356 = {
+			isa = PBXGroup;
+			children = (
+				3624050B23C882A600207356 /* jolly-rogers */,
+				3624052223C882A700207356 /* jolly-rogersTests */,
+				3624052D23C882A700207356 /* jolly-rogersUITests */,
+				3624050A23C882A600207356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3624050A23C882A600207356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3624050923C882A600207356 /* jolly-rogers.app */,
+				3624051F23C882A700207356 /* jolly-rogersTests.xctest */,
+				3624052A23C882A700207356 /* jolly-rogersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3624050B23C882A600207356 /* jolly-rogers */ = {
+			isa = PBXGroup;
+			children = (
+				3624050C23C882A600207356 /* AppDelegate.swift */,
+				3624050E23C882A600207356 /* SceneDelegate.swift */,
+				3624051023C882A600207356 /* ViewController.swift */,
+				3624051223C882A600207356 /* Main.storyboard */,
+				3624051523C882A700207356 /* Assets.xcassets */,
+				3624051723C882A700207356 /* LaunchScreen.storyboard */,
+				3624051A23C882A700207356 /* Info.plist */,
+			);
+			path = "jolly-rogers";
+			sourceTree = "<group>";
+		};
+		3624052223C882A700207356 /* jolly-rogersTests */ = {
+			isa = PBXGroup;
+			children = (
+				3624052323C882A700207356 /* jolly_rogersTests.swift */,
+				3624052523C882A700207356 /* Info.plist */,
+			);
+			path = "jolly-rogersTests";
+			sourceTree = "<group>";
+		};
+		3624052D23C882A700207356 /* jolly-rogersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3624052E23C882A700207356 /* jolly_rogersUITests.swift */,
+				3624053023C882A700207356 /* Info.plist */,
+			);
+			path = "jolly-rogersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3624050823C882A600207356 /* jolly-rogers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3624053323C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogers" */;
+			buildPhases = (
+				3624050523C882A600207356 /* Sources */,
+				3624050623C882A600207356 /* Frameworks */,
+				3624050723C882A600207356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jolly-rogers";
+			productName = "jolly-rogers";
+			productReference = 3624050923C882A600207356 /* jolly-rogers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3624051E23C882A700207356 /* jolly-rogersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3624053623C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogersTests" */;
+			buildPhases = (
+				3624051B23C882A700207356 /* Sources */,
+				3624051C23C882A700207356 /* Frameworks */,
+				3624051D23C882A700207356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3624052123C882A700207356 /* PBXTargetDependency */,
+			);
+			name = "jolly-rogersTests";
+			productName = "jolly-rogersTests";
+			productReference = 3624051F23C882A700207356 /* jolly-rogersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3624052923C882A700207356 /* jolly-rogersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3624053923C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogersUITests" */;
+			buildPhases = (
+				3624052623C882A700207356 /* Sources */,
+				3624052723C882A700207356 /* Frameworks */,
+				3624052823C882A700207356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3624052C23C882A700207356 /* PBXTargetDependency */,
+			);
+			name = "jolly-rogersUITests";
+			productName = "jolly-rogersUITests";
+			productReference = 3624052A23C882A700207356 /* jolly-rogersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3624050123C882A600207356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Code Nation";
+				TargetAttributes = {
+					3624050823C882A600207356 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					3624051E23C882A700207356 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3624050823C882A600207356;
+					};
+					3624052923C882A700207356 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3624050823C882A600207356;
+					};
+				};
+			};
+			buildConfigurationList = 3624050423C882A600207356 /* Build configuration list for PBXProject "jolly-rogers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3624050023C882A600207356;
+			productRefGroup = 3624050A23C882A600207356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3624050823C882A600207356 /* jolly-rogers */,
+				3624051E23C882A700207356 /* jolly-rogersTests */,
+				3624052923C882A700207356 /* jolly-rogersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3624050723C882A600207356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3624051923C882A700207356 /* LaunchScreen.storyboard in Resources */,
+				3624051623C882A700207356 /* Assets.xcassets in Resources */,
+				3624051423C882A600207356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624051D23C882A700207356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624052823C882A700207356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3624050523C882A600207356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3624051123C882A600207356 /* ViewController.swift in Sources */,
+				3624050D23C882A600207356 /* AppDelegate.swift in Sources */,
+				3624050F23C882A600207356 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624051B23C882A700207356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3624052423C882A700207356 /* jolly_rogersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3624052623C882A700207356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3624052F23C882A700207356 /* jolly_rogersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3624052123C882A700207356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3624050823C882A600207356 /* jolly-rogers */;
+			targetProxy = 3624052023C882A700207356 /* PBXContainerItemProxy */;
+		};
+		3624052C23C882A700207356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3624050823C882A600207356 /* jolly-rogers */;
+			targetProxy = 3624052B23C882A700207356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3624051223C882A600207356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3624051323C882A600207356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3624051723C882A700207356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3624051823C882A700207356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3624053123C882A700207356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3624053223C882A700207356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3624053423C882A700207356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3624053523C882A700207356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3624053723C882A700207356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jolly-rogers.app/jolly-rogers";
+			};
+			name = Debug;
+		};
+		3624053823C882A700207356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jolly-rogers.app/jolly-rogers";
+			};
+			name = Release;
+		};
+		3624053A23C882A700207356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jolly-rogers";
+			};
+			name = Debug;
+		};
+		3624053B23C882A700207356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "jolly-rogersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CN.jolly-rogersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jolly-rogers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3624050423C882A600207356 /* Build configuration list for PBXProject "jolly-rogers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3624053123C882A700207356 /* Debug */,
+				3624053223C882A700207356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3624053323C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3624053423C882A700207356 /* Debug */,
+				3624053523C882A700207356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3624053623C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3624053723C882A700207356 /* Debug */,
+				3624053823C882A700207356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3624053923C882A700207356 /* Build configuration list for PBXNativeTarget "jolly-rogersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3624053A23C882A700207356 /* Debug */,
+				3624053B23C882A700207356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3624050123C882A600207356 /* Project object */;
+}
