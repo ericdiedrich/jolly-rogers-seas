@@ -15,6 +15,7 @@
 		3624051923C882A700207356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3624051723C882A700207356 /* LaunchScreen.storyboard */; };
 		3624052423C882A700207356 /* jolly_rogersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624052323C882A700207356 /* jolly_rogersTests.swift */; };
 		3624052F23C882A700207356 /* jolly_rogersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624052E23C882A700207356 /* jolly_rogersUITests.swift */; };
+		362AB5EF23C8A254009F902D /* PiratesNShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AB5EE23C8A254009F902D /* PiratesNShips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3624052A23C882A700207356 /* jolly-rogersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jolly-rogersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3624052E23C882A700207356 /* jolly_rogersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jolly_rogersUITests.swift; sourceTree = "<group>"; };
 		3624053023C882A700207356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362AB5EE23C8A254009F902D /* PiratesNShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiratesNShips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3624051023C882A600207356 /* ViewController.swift */,
 				3624051223C882A600207356 /* Main.storyboard */,
 				3624051523C882A700207356 /* Assets.xcassets */,
+				362AB5EE23C8A254009F902D /* PiratesNShips.swift */,
 				3624051723C882A700207356 /* LaunchScreen.storyboard */,
 				3624051A23C882A700207356 /* Info.plist */,
 			);
@@ -262,6 +265,7 @@
 				3624051123C882A600207356 /* ViewController.swift in Sources */,
 				3624050D23C882A600207356 /* AppDelegate.swift in Sources */,
 				3624050F23C882A600207356 /* SceneDelegate.swift in Sources */,
+				362AB5EF23C8A254009F902D /* PiratesNShips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
