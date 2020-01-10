@@ -3,7 +3,7 @@
 //  jolly-rogersUITests
 //
 //  Created by Code Nation on 10/01/2020.
-//  Copyright © 2020 Code Nation. All rights reserved.
+//  Copyright © 2020 JollyRodgerGamingCo. All rights reserved.
 //
 
 import XCTest

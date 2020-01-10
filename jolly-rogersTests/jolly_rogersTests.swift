@@ -3,7 +3,7 @@
 //  jolly-rogersTests
 //
 //  Created by Code Nation on 10/01/2020.
-//  Copyright © 2020 Code Nation. All rights reserved.
+//  Copyright © 2020 JollyRodgerGamingCo. All rights reserved.
 //
 
 import XCTest
@@ -14,40 +14,41 @@ class jolly_rogersTests: XCTestCase {
     var crewNames =
     ["Chance", "Bruno", "Toby", "Damien", "Rafael", "Domenic", "Weston", "Edison", "Chris", "Grant", "Cortez", "Darren", "Nicolas", "Everette", "Jason", "Vicente", "Noe", "Ricky", "Ivory", "Thomas", "Guillermo", "Isreal", "Ben", "Winfred", "Lincoln", "Kareem", "Antwan", "Greg", "Lawrence", "Corey", "Todd", "Jeffery", "Rayford", "Julio", "Manual", "Chi", "Bradford", "Devon", "Bryan", "Andreas", "Don", "Erik", "Bobbie", "Tyree", "Felipe", "Clifton", "Carrol", "Kasey", "Cliff", "Jack"]
     
+    //Lincoln is no.25
     
-    var crewmenAll = [Crewman]?
+    var crewmenAll = [Crewman]()
     
     func generateCrew()
     {
-        for _ in 1...25
+        for i in 1...25
         {
-            let x = Int.random(in: 0..<50)
-            let name = crewNames[x]
-            var name:Crewman!
-            crewmenAll.append(name)
+            var (crewNames[i]):Crewman!
+            crewmenAll.append(crewNames(i))
             print(crewmenAll)
         }
     }
     
-    
     override func setUp() {
         
-        for _ in crewmenAll
+        for i in 1...25
         {
-            let navInt = Int.random(int: 3...7)
-            let combatInt = Int.random(int: 3...7)
-            let moraleInt = Int.random(int: 3...7)
+            let x = Int.random(in: 0..<50)
+            let name = crewNames[x]
             
-            name = Crewman(name: Name, navSkill: navInt, combatSkill: combatInt, morale: moraleInt, loyalty: 5)
+            let navInt = Int.random(in: 3...7)
+            let combatInt = Int.random(in: 3...7)
+            let moraleInt = Int.random(in: 3...7)
             
             
+            crewmenAll[i] = Crewman(name: name, navSkill: navInt, combatSkill: combatInt, morale: moraleInt, loyalty: 5)
+            
+            
+            // Object fields that need to be filled out:       name       navSkill     combatSkill     morale      loyalty
+            //                                                String       Int/10       Int/10         Int/10       5/10
         }
         
-//        var name: String!
-//        var navSkill: Int!      // #/10
-//        var combatSkill: Int!   // #/10
-//        var morale: Int!        // #/10
-//        var loyalty: Int!
+
+        
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -55,6 +56,12 @@ class jolly_rogersTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testNumberInCrewRoster () {
+        XCTAssert(crewmenAll.count == 25)
+        //Is there 25 members of crew to pick from?
+    }
+    
 
     func testExample() {
         // This is an example of a functional test case.
