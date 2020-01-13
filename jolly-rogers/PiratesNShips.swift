@@ -38,13 +38,5 @@ class PirateShip {
     
 }
 
-class Crewman {
-    var name: String!
-    var navSkill: Int!      // #/10
-    var combatSkill: Int!   // #/10
-    var morale: Int!        // #/10
-    var loyalty: Int!       // #/10
-}
 
-var currentCrewMembers =
-["Chance", "Bruno", "Toby", "Damien", "Rafael", "Domenic", "Weston", "Edison", "Chris", "Grant", "Cortez", "Darren", "Nicolas", "Everette", "Jason", "Vicente", "Noe", "Ricky", "Ivory", "Thomas", "Guillermo", "Isreal", "Ben", "Winfred", "Lincoln", "Kareem", "Antwan", "Greg", "Lawrence", "Corey", "Todd", "Jeffery", "Rayford", "Julio", "Manual", "Chi", "Bradford", "Devon", "Bryan", "Andreas", "Don", "Erik", "Bobbie", "Tyree", "Felipe", "Clifton", "Carrol", "Kasey", "Cliff", "Jack"]
+
