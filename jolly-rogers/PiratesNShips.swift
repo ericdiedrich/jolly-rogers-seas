@@ -8,6 +8,9 @@
 
 import Foundation
 
+var gold: Int = 100
+var upgradePrice = 50
+
 class PirateCrew {
     var CaptainsName: String?
     var navSkill: Int!          //total of crew stats
